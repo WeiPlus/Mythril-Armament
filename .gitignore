@@ -1,0 +1,9 @@
+run/
+gradle/
+.gradle/
+.mcreator/
+build/
+src/main/resources/assets
+src/test/
+*.png
+*.ogg
