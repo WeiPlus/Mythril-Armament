@@ -13,15 +13,15 @@ public class MythrilHoeItem extends HoeItem {
 	public MythrilHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 381;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 3f;
 			}
 
 			public int getLevel() {
@@ -29,7 +29,7 @@ public class MythrilHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {

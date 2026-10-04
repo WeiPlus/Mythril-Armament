@@ -13,15 +13,15 @@ public class MythrilSwordItem extends SwordItem {
 	public MythrilSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 381;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8.5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 4.5f;
 			}
 
 			public int getLevel() {
@@ -29,7 +29,7 @@ public class MythrilSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {

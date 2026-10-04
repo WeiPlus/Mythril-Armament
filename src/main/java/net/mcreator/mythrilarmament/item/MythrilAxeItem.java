@@ -13,11 +13,11 @@ public class MythrilAxeItem extends AxeItem {
 	public MythrilAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 381;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -29,7 +29,7 @@ public class MythrilAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {

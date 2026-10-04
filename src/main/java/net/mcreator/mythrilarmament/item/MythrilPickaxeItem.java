@@ -13,15 +13,15 @@ public class MythrilPickaxeItem extends PickaxeItem {
 	public MythrilPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 381;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -29,12 +29,12 @@ public class MythrilPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MythrilArmamentModItems.MYTHRIL_INGOT.get()));
 			}
-		}, 1, -2f, new Item.Properties());
+		}, 1, -1f, new Item.Properties());
 	}
 }

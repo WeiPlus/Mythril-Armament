@@ -13,15 +13,15 @@ public class MythrilShovelItem extends ShovelItem {
 	public MythrilShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 381;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 10f;
 			}
 
 			public int getLevel() {
@@ -29,7 +29,7 @@ public class MythrilShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 19;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
