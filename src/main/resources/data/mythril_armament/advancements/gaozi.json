@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mythril_armament:mythril_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.gaozi.title"
+    },
+    "description": {
+      "translate": "advancements.gaozi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gaozi_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythril_armament:mythril_pickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "mythril_armament:wow"
+}
