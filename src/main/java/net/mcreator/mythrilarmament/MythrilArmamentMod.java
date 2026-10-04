@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mythrilarmament.init.MythrilArmamentModTabs;
+import net.mcreator.mythrilarmament.init.MythrilArmamentModItems;
+import net.mcreator.mythrilarmament.init.MythrilArmamentModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class MythrilArmamentMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MythrilArmamentModBlocks.REGISTRY.register(bus);
+
+		MythrilArmamentModItems.REGISTRY.register(bus);
+
+		MythrilArmamentModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

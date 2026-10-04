@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "mythril_armament:mythril_ore",
+  "step": "underground_ores"
+}
