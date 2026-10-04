@@ -35,6 +35,7 @@ public class MythrilArmamentModItems {
 	public static final RegistryObject<Item> MYTHRIL_ARMOR_CHESTPLATE = REGISTRY.register("mythril_armor_chestplate", () -> new MythrilArmorItem.Chestplate());
 	public static final RegistryObject<Item> MYTHRIL_ARMOR_LEGGINGS = REGISTRY.register("mythril_armor_leggings", () -> new MythrilArmorItem.Leggings());
 	public static final RegistryObject<Item> MYTHRIL_ARMOR_BOOTS = REGISTRY.register("mythril_armor_boots", () -> new MythrilArmorItem.Boots());
+	public static final RegistryObject<Item> DEEPSLATE_MYTHRIL_ORE = block(MythrilArmamentModBlocks.DEEPSLATE_MYTHRIL_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

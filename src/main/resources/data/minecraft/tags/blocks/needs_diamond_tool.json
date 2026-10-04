@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "mythril_armament:deepslate_mythril_ore",
     "mythril_armament:mythril_block",
     "mythril_armament:mythril_ore"
   ]

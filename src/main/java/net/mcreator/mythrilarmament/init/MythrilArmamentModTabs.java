@@ -34,6 +34,7 @@ public class MythrilArmamentModTabs {
 				tabData.accept(MythrilArmamentModItems.MYTHRIL_ARMOR_CHESTPLATE.get());
 				tabData.accept(MythrilArmamentModItems.MYTHRIL_ARMOR_LEGGINGS.get());
 				tabData.accept(MythrilArmamentModItems.MYTHRIL_ARMOR_BOOTS.get());
+				tabData.accept(MythrilArmamentModBlocks.DEEPSLATE_MYTHRIL_ORE.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -45,6 +46,7 @@ public class MythrilArmamentModTabs {
 			tabData.accept(MythrilArmamentModBlocks.MYTHRIL_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MythrilArmamentModBlocks.MYTHRIL_ORE.get().asItem());
+			tabData.accept(MythrilArmamentModBlocks.DEEPSLATE_MYTHRIL_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MythrilArmamentModItems.MYTHRIL_PICKAXE.get());
 			tabData.accept(MythrilArmamentModItems.MYTHRIL_AXE.get());

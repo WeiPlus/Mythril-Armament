@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "mythril_armament:deepslate_mythril_ore",
+  "step": "underground_ores"
+}
